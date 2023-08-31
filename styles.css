@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common CSS Start*/
+
+.container {
+    margin: 0 8% 0 8%;
+}
+
+.btn-primary {
+    background-color: rgb(243, 34, 69);
+    padding: 15px 30px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    margin: 15px 5px;
+}
+
+.btn-primary:hover {
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+
+
+/* common CSS End */
+
+
+header {
+    background-color: rgb(249, 234, 236);
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 4%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+    font-weight: 900;
+    font-size: medium;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    box-shadow: 2px 2px 50px gray;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.hero-section-text {
+    width: 50%;
+    font-weight: 700;
+}
+
+.hero-section-text h1 {
+    font-size: 50px;
+}
+
+.hero-section-img {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.hero-section-img img {
+    width: 55%;
+}
+
+.featured-section-header {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.featured-section-header h3 {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.featured-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.featured-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 505px;
+    background-color: pink;
+    border-radius: 560px 560px 0 0;
+}
+
+.featured-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 505px;
+    background-color: rgb(188, 237, 198);
+    border-radius: 560px 560px 0 0;
+}
+
+.featured-box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 505px;
+    background-color: rgb(240, 247, 206);
+    border-radius: 560px 560px 0 0;
+}
+
+.featured-box-flower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.featured-box-flower img {
+    width: 100%;
+    bottom: 0;
+}

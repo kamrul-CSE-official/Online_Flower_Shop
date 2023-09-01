@@ -17,6 +17,7 @@ body {
     font-size: medium;
     font-weight: 500;
     margin: 15px 5px;
+    border-radius: 10%;
 }
 
 .btn-primary:hover {
@@ -24,6 +25,9 @@ body {
     cursor: pointer;
 }
 
+.hilightBit {
+    color: rgb(243, 38, 72);
+}
 
 /* common CSS End */
 
@@ -112,33 +116,55 @@ nav ul li:hover {
 }
 
 .featured-box1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 400px;
-    height: 505px;
+    height: 400px;
     background-color: pink;
     border-radius: 560px 560px 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
+
+.featured-box1 img {
+    position: absolute;
+    bottom: 0;
+    max-width: 60%;
+    left: 70px;
+}
+
 
 .featured-box2 {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 400px;
-    height: 505px;
+    height: 400px;
     background-color: rgb(188, 237, 198);
     border-radius: 560px 560px 0 0;
+    position: relative;
+}
+
+.featured-box2 img {
+    position: absolute;
+    bottom: 0;
+    max-width: 80%;
+    left: 70px;
 }
 
 .featured-box3 {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 400px;
-    height: 505px;
+    height: 400px;
     background-color: rgb(240, 247, 206);
     border-radius: 560px 560px 0 0;
+    position: relative;
+}
+
+.featured-box3 img {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    max-width: 60%;
 }
 
 .featured-box-flower {
@@ -168,4 +194,88 @@ nav ul li:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.off-section {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(252, 237, 241);
+}
+
+.off-section .off-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.off-text {
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.off-text h2 {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.off-img {
+    max-width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.off-img img {
+    width: 85%;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.instagram-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.deals {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
 }
